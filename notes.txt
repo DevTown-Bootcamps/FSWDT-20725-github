@@ -1,0 +1,35 @@
+1
+Git:It is a tool that helps to track changes, and manage your code bases.
+
+Github:Cloud based repository keeper.Also service like contribution,version controls, and others.
+
+
+2 Github architecture:
+ working directory:where your code are live.If you make any changes in this part then 
+ it does not gets added to github.
+
+ staging area:A middle ground where you prepare your codes for chnages.
+
+ commit:Parmanent record of the project
+
+working directory->staging area->commit(save the code)\
+
+example:
+  A->added changes->store these changes as permanent changes.
+
+  local code(local storage)->github
+
+
+3 Git setup:
+  git config --global user.name "Your Name"
+  git config --global user.email "your@email.com"
+
+4 Basic git operations: 
+
+   i) git init: Intialize a repo with git.
+   ii)git status: Show all the changes in the working directory.
+   iii)git add . :Stage all the modified changes.
+   iv) git commit -m "message" : create a new commit with a message given to it.
+   v) git push: add the chnages from staging to github.
+
+
