@@ -31,5 +31,21 @@ example:
    iii)git add . :Stage all the modified changes.
    iv) git commit -m "message" : create a new commit with a message given to it.
    v) git push: add the chnages from staging to github.
+   vi) git push -u main: sets the main branch upstream for code push.
 
+5 Branches:
+      D1
+  A  
+      D2
+
+      same file-two developers- two different changes
+      f1-D1,D2 made changes.
+
+
+      b1: f1: D1 functionality for login-D1
+
+      b2: f1: D2 functionality for login-D2
+
+      b1 branch +D1 has added new file F2.
+      b2 branch will not have file f2.  
 
