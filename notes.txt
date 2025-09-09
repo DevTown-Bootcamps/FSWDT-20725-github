@@ -1,3 +1,5 @@
+https://github.com/DevTown-Bootcamps/FSWDT-20725-github.git
+
 1
 Git:It is a tool that helps to track changes, and manage your code bases.
 
@@ -12,7 +14,7 @@ Github:Cloud based repository keeper.Also service like contribution,version cont
 
  commit:Parmanent record of the project
 
-working directory->staging area->commit(save the code)\
+working directory->staging area->commit(save the code).
 
 example:
   A->added changes->store these changes as permanent changes.
@@ -48,4 +50,52 @@ example:
 
       b1 branch +D1 has added new file F2.
       b2 branch will not have file f2.  
+
+      i) creating branch through github:
+         git fetch origin: to pull all new created branches from github.
+         git checkout <branchname>: to switch between branches.
+      
+      ii) Creating branches through local system and pushing to github.
+          git branch <branch-name>: to create a branch locally.
+          git push --all origin: to push the newly created branch from the local system to github.
+
+Questions:
+
+ 1. What command initializes a new Git repository in your project folder?
+a) git start
+b) git init
+c) git create
+d) git new
+Answer: b) git init
+________________________________________
+2. Which command stages all files in your project for a commit?
+a) git commit -a
+b) git push
+c) git add .
+d) git stage all
+Answer: c) git add .
+________________________________________
+3. What is the correct command to save changes to the local repository with a message?
+a) git save "message"
+b) git update -m "message"
+c) git commit -m "message"
+d) git push -m "message"
+Answer: c) git commit -m "message"
+
+4. Which command is used to create a new branch in Git?
+a) git create branch <branch-name>
+b) git new <branch-name>
+c) git branch <branch-name>
+d) git checkout <branch-name>
+Answer: c) git branch <branch-name>
+________________________________________
+5. How do you switch to an existing branch named feature?
+a) git switch feature
+b) git move feature
+c) git checkout feature
+d) git branch feature
+Answer: c) git checkout feature
+________________________________________
+
+
 
