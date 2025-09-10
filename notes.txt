@@ -97,5 +97,10 @@ d) git branch feature
 Answer: c) git checkout feature
 ________________________________________
 
+6 Pull request:
+   branch A(code 1)->pull request   branch B(code 2)
+
+   pulling code from branch A to branch B.
+
 
 
