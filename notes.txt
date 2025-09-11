@@ -102,5 +102,30 @@ ________________________________________
 
    pulling code from branch A to branch B.
 
+   creating a pull request
+   adding comments to pull request
+   closing a pull request
+   merging a pull request.
+
+7 Forking: repo A(not a owner)
+   To create a local copy(not on your system but on your github) of the repo.
+
+
+   # Add the original repo as 'upstream'
+    git remote add upstream https://github.com/original-owner/original-repo.git
+    
+    # Fetch latest changes from upstream
+    git fetch upstream
+    
+    # Merge upstream/main into your local main
+    git merge upstream/main
+    
+    # OR if you want a faster update (optional safer method)
+    # git pull upstream main
+
+8 Clone:creating a copy of the repo on your own local system.
+   git clone <repo_https_link>
+
+
 
 
